@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(73, 122, 226) ;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color:  rgb(12, 12, 128);
+ }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(141, 169, 223);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .active:hover{
+    background-color: #3ef7b3;
+  }
+
+
+
+ .container {
+   width: 500px;
+   height: 600px;
+   border-radius: 10px;
+   background-color: rgb(47, 47, 190);
+   margin-top: 30px;
+   padding-top: 25px;
+   color: aliceblue;
+ }
+ .con {
+   color: aliceblue;
+ }
+
+ 

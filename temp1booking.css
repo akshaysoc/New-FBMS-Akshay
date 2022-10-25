@@ -1,0 +1,72 @@
+body{
+    background-color:rgb(73, 122, 226) ;
+}
+.top1{
+    background-image: url('flight.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    width: 1600px;
+    height: 280px;
+    border-radius: 10px;
+    color: rgb(0, 0, 80);
+    font-family: fantasy;
+    font-size: 24pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.top2{
+    background-color:rgb(47, 47, 190); 
+    margin:  25px;
+    width: 1600px;
+    height: 530px;
+    padding-top: 20px;
+    border-radius: 10px;
+    color:white;
+}
+ /* .container {
+   width: 500px;
+   height: 600px;
+   border-radius: 10px;
+   background-color: rgb(47, 47, 190);
+   margin-top: 30px;
+   padding-top: 25px;
+   color: aliceblue;
+ }
+ .con {
+   color: aliceblue;
+ } */
+
+ ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color:  rgb(12, 12, 128);
+ }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(141, 169, 223);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .active:hover{
+    background-color: #3ef7b3;
+  }

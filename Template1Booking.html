@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="temp1booking.css" type="text/css"/>
+</head>
+<body>
+        <!-- NAVBAR -->
+        <ul>
+            <li><a href="Template1Home.html">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li style="float:right"><a class="active" href="Template1Login.html">Login</a></li>
+          </ul>
+    
+        <!-- HEADING   -->
+          <h1></h1>
+    <center><div class="top1">WELCOME TO FLIGHT BOOKING</div>
+            <div class="top2" >
+                <form class="bookflight" action="" method="GET" >
+                    <table cellspacing="7" cellpadding="10";>
+                        <tr><td><input type="text" placeholder="Search for flights" name="fname" style="height: 30px; width: 800px; border-radius: 5px;" ></td>
+                            <td><button type="submit" style="width:70px; height: 36px; background-color:#04AA6D; border-radius: 5px; color: aliceblue; cursor: pointer;"><b>Search</b></button></td></tr>
+                        <div class="con" style="width: 100;">
+                            <table cellspacing="10" cellpadding="5"; style="font-size:25px;">
+                            
+                                <tr><td><label for="bookf"><b>Book a Flight :</b></label></td>
+                            <td><input type="radio"  id="oneway" name="bookf" value="1" />Oneway</td>
+                            <td><input type="radio"  id="Roundtrip" name="bookf" value="2" />Round Trip</td>
+                            <td><input type="radio" id="multicity" name="bookf" value="3" />Multi City</td></tr>
+
+                            <div class="cont" style="padding-top: 8px;">
+                                <table  cellspacing="5" cellpadding="8";>
+                                    <tr><td><label for="from" style="font-size: 25px;"><b>Boarding :</b></label></td>
+                                    <td><input type="text" placeholder="From" name="from" style="height: 30px; width: 150px; border-radius: 5px;" ></td></tr>
+
+                                    <tr><td><label for="to" style="font-size: 25px;"><b>Departure :</b></label></td>
+                                    <td><input type="text" placeholder="To" name="to" style="height: 30px; width: 150px; border-radius: 5px;" ></td></tr>
+
+                                    <tr><td><label for="dot" style="font-size: 24px;"><b>Date Of Travel :</b></label></td>
+                                    <td><input type="date" id="dot" name="dot" placeholder="Enter Date of Travel" style="height:33px; width: 153px; border-radius: 5px;"/></td></tr>
+
+                                    <tr><td><label for="pass" style="font-size: 24px;"><b>Add Passengers :</b></label></td>
+                                    <td><input type="text" placeholder="No. of Passengers" name="pass" style="height: 30px; width: 150px; border-radius: 5px;" ></td></tr>
+
+                                    <tr><td><label for="pay" style="font-size: 24px;"><b>Payment :</b></label></td>
+                                    <td><input type="radio"  id="credit" name="pay" value="1"/>Credit Card
+                                    <input type="radio"  id="debit" name="pay" value="2" />Debit Card
+                                    <input type="radio" id="upi" name="pay" value="3" />UPI</td></tr>
+
+                                    <td><label for="agree"></label></td>
+                                    <td><input type="checkbox" id="agree" name="agree" value="1" /><b>I agree to the terms and conditions</b></td>
+
+                                 <div class="submit">
+                                    <table cellspacing="10" cellpadding="5";>
+                                        <tr><td><button type="submit" style="width:150px; height: 33px; background-color:#04AA6D; border-radius: 5px; color: aliceblue; cursor: pointer;"><b>Submit for Payment</b></button></td>
+                                        <td><button type="submit" style="width: 70px; height: 33px; background-color: rgb(255, 71, 71);border-radius: 5px; color: aliceblue; cursor: pointer;"><b>Cancel</b></button></td></tr>  
+                                    </table>
+                                 </div>
+                                </table>
+                            </div>
+                         </table>
+                        </div>
+                    </table>             
+               </form>
+            </div>        
+    </center>
+</body>
+</html>

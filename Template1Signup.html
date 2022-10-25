@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="temp1signup.css" type="text/css"/>
+</head>
+<body>
+            <!-- NAVBAR -->
+            <ul>
+                <li><a href="Template1Home.html">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li style="float:right"><a class="active" href="Template1Login.html">Login</a></li>
+              </ul>
+        
+            <!-- HEADING   -->  
+    
+    <h1 style="text-align: center; color: aliceblue;">Sign up</h1>
+    <center>
+    <div class="container"> 
+    <form class="loginbox" action="" method="GET" >
+      <table cellspacing="10" cellpadding="5"; >
+        <tr><b style="font-size:24px ;">New User</b></tr>
+        <tr>
+            <td><label for="title"><b>Title :</b></label></td>
+            <td><select id="title" name="title" style="height: 30px;  border-radius: 5px;">
+                    <option value="1">Mr</option>
+                    <option value="2">Mrs</option>
+                    <option value="3" selected>Ms</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr><td><label for="fname"><b>Firstname :</b></label></td>
+        <td><input type="text" placeholder="Enter firstname" name="fname" style="height: 30px; width: 300px; border-radius: 5px;" ></td></tr>
+        
+        <tr><td><label for="lname"><b>Lastname :</b></label></td>
+        <td><input type="text" placeholder="Enter lastname" name="lname" style="height: 30px; width: 300px; border-radius: 5px;" ></td></tr>
+
+        <tr><td><label for="Gender"><b>Gender :</b></label></td>
+            <td><input type="radio" id="male" name="gender" value="1" />Male
+            <input type="radio" id="female" name="gender" value="2" />Female</td></tr>
+
+        <tr><td><label for="Address"><b>Address :</b></label></td>
+            <td><input type="text" id="Address" name="Address" placeholder="Enter Address" style="height:50px; width: 300px; border-radius: 5px;"></td></tr>
+
+        <tr><td><label for="dob"><b>Date Of Birth :</b></label></td>
+            <td><input type="date" id="dob" name="dob" placeholder="Enter Date of Birth" style="height:30px; width: 300px; border-radius: 5px;"/></td></tr>
+
+        <tr><td><label for="mobile"><b>Mobile No. :</b></label></td>
+        <td><input type="text" placeholder="Enter mobileno" name="mobile" style="height: 30px; width: 300px; border-radius: 5px;" ></td></tr>
+            
+        <tr><td><label for="email"><b>Email id :</b></label></td>
+        <td><input type="text" placeholder="Enter email id" name="email" style="height: 30px; width: 300px; border-radius: 5px;" ></td></tr>
+        <tr>
+            <td><label for="agree"></label></td>
+            <td><input type="checkbox" id="agree" name="agree" value="1" /><b>I agree to the terms and conditions</b></td>
+        </tr>
+        <div class="con">
+          <table cellspacing="10" cellpadding="5";>
+            
+        <tr><td><button type="submit" style="width:70px; height: 30px; background-color:#04AA6D; border-radius: 5px; color: aliceblue; cursor: pointer;"><b>Submit</b></button></td>
+            <td><button type="submit" style="width: 70px; height: 30px; background-color: rgb(255, 71, 71);border-radius: 5px; color: aliceblue; cursor: pointer;"><b>Reset</b></button></td></tr>  
+      
+        </table>
+    </div>
+  </table>
+    </form></div>
+  </center>
+</body>
+</html>

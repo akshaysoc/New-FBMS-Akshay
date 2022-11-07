@@ -2,7 +2,7 @@ body{
     background-color:rgb(73, 122, 226) ;
 }
 .top1{
-    background-image: url('flight.jpg'); 
+    background-image: url('Images/flight.jpg'); 
     background-size: cover; 
     background-position: center;
     width: 1600px;
